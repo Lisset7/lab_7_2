@@ -1,0 +1,97 @@
+body {
+    background-image: url('images/art-background4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+  }
+  
+  header .logo {
+    background-color: white;
+    padding: 20px 30px;
+    text-align: left;
+    width: fit-content;
+    margin-left: 60px; /
+  }
+  
+  header h1 {
+    font-family: 'Six Caps', sans-serif;
+    font-size: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  
+  header p {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  article {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;  /* Alinea a la izquierda */
+    width: 100%;
+  }
+  
+  .cuadro-transparente {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 30px;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 60px; /* Igual que el encabezado */
+  }
+  
+  .cuadro-transparente {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .cuadro-transparente h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .cuadro-transparente p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .reloj {
+    background-color: rgba(64, 64, 64, 0.85);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  footer {
+    margin-top: 15px;
+  }
+  
+  footer a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+  
+  .social {
+    margin-top: 8px;
+  }
+  
+  .social img {
+    margin: 0 4px;
+    vertical-align: middle;
+  }
